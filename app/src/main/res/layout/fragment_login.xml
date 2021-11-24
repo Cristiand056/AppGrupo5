@@ -21,7 +21,7 @@
             android:id="@+id/Login_loga"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/FitArmorAppLogo"/>
+            android:src="@drawable/fitArmorAppLogo"/>
 
 
     </androidx.cardview.widget.CardView>
@@ -63,7 +63,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="25dp"
+        android:padding="20dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="405dp">
 
