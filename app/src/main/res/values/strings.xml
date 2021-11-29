@@ -6,4 +6,6 @@
     <string name="login_password">Password</string>
     <string name="login_button_next">Next</string>
     <string name="login_button_cancel">Cancel</string>
+    <string name="bar_filter_title">Filter</string>
+    <string name="bar_search_title">Search</string>
 </resources>
