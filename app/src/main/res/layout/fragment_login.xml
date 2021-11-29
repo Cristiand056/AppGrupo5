@@ -21,7 +21,7 @@
             android:id="@+id/Login_loga"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/fitArmorAppLogo"/>
+            android:src="@drawable/FitArmorAppLogo"/>
 
 
     </androidx.cardview.widget.CardView>
@@ -74,7 +74,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:text="@string/login_button_next"
-            app:backgroundTint="#FF0000" />
+            app:backgroundTint="#FF0000"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/cancel_button"
