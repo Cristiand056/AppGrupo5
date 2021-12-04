@@ -1,7 +1,8 @@
-package com.example.fitarmorapp
+package com.example.fitarmorapp.activitys
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.fitarmorapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

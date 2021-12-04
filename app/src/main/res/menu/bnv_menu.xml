@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bnv_menu">
+    <item
+        android:id="@+id/navHomeAct"
+        android:title="Inicio"
+        android:icon="@drawable/iconmonstrhome" />
+    <item
+        android:id="@+id/navProducListAct"
+        android:title="Tienda"
+        android:icon="@drawable/iconmonstrshoppingcart" />
+
+    <item
+        android:id="@+id/navAcount"
+        android:title="Cuenta"
+        android:icon="@drawable/iconmonstruser"/>
+
+
+
+</menu>

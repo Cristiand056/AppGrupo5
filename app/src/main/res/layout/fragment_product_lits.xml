@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.producListFragment">
+    tools:context=".fragments.ProductLitsFragment">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvComments"
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.5"
-            android:background="@color/primaryColor" />
+            android:background="@color/Background" />
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,3 +38,8 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 </FrameLayout>
+
+
+
+
+

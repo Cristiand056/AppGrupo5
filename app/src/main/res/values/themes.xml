@@ -2,13 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.FitArmorApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/FF2F1A</item>
-        <item name="colorPrimaryVariant">@color/F02E18</item>
-        <item name="colorOnPrimary">@color/F5735B</item>
+        <item name="colorPrimary">@color/rojo_500</item>
+        <item name="colorPrimaryVariant">@color/rojo_700</item>
+        <item name="colorOnPrimary">@color/naranja_900</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/D64C1A</item>
-        <item name="colorSecondaryVariant">@color/FF350D</item>
-        <item name="colorOnSecondary">@color/F2320C</item>
+        <item name="colorSecondary">@color/naranja_200</item>
+        <item name="colorSecondaryVariant">@color/naranja_500</item>
+        <item name="colorOnSecondary">@color/naranja_700</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
