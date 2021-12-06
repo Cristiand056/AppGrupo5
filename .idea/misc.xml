@@ -11,11 +11,15 @@
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/activity_auth.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/activity_main.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/activity_splash.xml" value="0.17502532928064843" />
+        <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_auth.xml" value="0.22" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_produc_list.xml" value="0.18565400843881857" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_product_lits.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_sign_up.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/layout/fragment_splash.xml" value="0.35507246376811596" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/menu/app_toolbar_menu.xml" value="0.25" />
         <entry key="..\:/Users/USER/Desktop/AppGrupo5/AppGrupo5/app/src/main/res/menu/bnv_menu.xml" value="0.32314814814814813" />
       </map>

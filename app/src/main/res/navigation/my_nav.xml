@@ -3,22 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/authActivity">
-    <activity
-        android:id="@+id/authActivity"
-        android:name="com.example.fitarmorapp.activitys.AuthActivity"
-        android:label="activity_auth"
-        tools:layout="@layout/activity_auth" />
-    <activity
-        android:id="@+id/homeActivity"
-        android:name="com.example.fitarmorapp.activitys.HomeActivity"
-        android:label="activity_home"
-        tools:layout="@layout/activity_home" />
-    <activity
-        android:id="@+id/splashActivity"
-        android:name="com.example.fitarmorapp.anim.SplashActivity"
-        android:label="activity_splash"
-        tools:layout="@layout/activity_splash" />
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.fitarmorapp.anim.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.fitarmorapp.fragments.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/action_authFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_authFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.fitarmorapp.fragments.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fitarmorapp.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_productLitsFragment"
+            app:destination="@id/productLitsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/productLitsFragment"
         android:name="com.example.fitarmorapp.fragments.ProductLitsFragment"
