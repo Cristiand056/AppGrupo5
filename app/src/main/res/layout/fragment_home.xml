@@ -8,14 +8,6 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/my_nav" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
