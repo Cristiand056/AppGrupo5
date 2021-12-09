@@ -12,7 +12,7 @@ class OrderViewModel: ViewModel() {
     val listProducts: MutableLiveData<List<Products>> = MutableLiveData()
     var isLoading = MutableLiveData<Boolean>()
 
-    fun refrest(){
+    fun refresh(){
         getProductsFromFirebase()
     }
 

@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.core.os.bundleOf
 import androidx.lifecycle.ViewModelProvider
@@ -19,6 +20,8 @@ import com.example.fitarmorapp.viewmodels.OrderViewModel
 
 class OrderFragment : Fragment(), ProductsListener {
 
+
+
     private var _binding: FragmentOrderBinding? = null
     private val binding get() = _binding!!
 
@@ -32,6 +35,7 @@ class OrderFragment : Fragment(), ProductsListener {
         // Inflate the layout for this fragment
         _binding = FragmentOrderBinding.inflate(inflater,container,false)
         val view = binding.root
+
         return view
     }
 
@@ -44,7 +48,7 @@ class OrderFragment : Fragment(), ProductsListener {
         super.onViewCreated(view, savedInstanceState)
 
         orderViewModel = ViewModelProvider(this).get(OrderViewModel::class.java)
-        orderViewModel.refrest()
+        orderViewModel.refresh()
 
         productsAdapter = ProductsAdapter(this)
 
@@ -52,6 +56,7 @@ class OrderFragment : Fragment(), ProductsListener {
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
             adapter = productsAdapter
         }
+        Toast.makeText(activity ,"prueba productos", Toast.LENGTH_LONG).show()
 
         observeViewModel()
     }

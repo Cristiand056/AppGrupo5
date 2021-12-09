@@ -15,5 +15,12 @@
         android:id="@+id/navAcount"
         android:title="Cuenta"
         android:icon="@drawable/iconmonstruser"/>
+    <item
+        android:id="@+id/orderFragment"
+        android:title="Lista"
+        android:icon="@drawable/app_search">
+
+    </item>
+
 
 </menu>
