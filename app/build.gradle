@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
+
 
 }
 
@@ -31,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures.viewBinding = true
 }
 
 dependencies {
@@ -65,14 +68,20 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
 
     //import the firebase BoM
-    implementation platform('com.google.firebase:firebase-bom:28.3.0')
+    implementation platform('com.google.firebase:firebase-bom:29.0.1')
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
 
     //Añadimos la dependencia de Firebase UI
     implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
     implementation 'com.google.firebase:firebase-auth:21.0.1'
-    implementation 'com.google.firebase:firebase-firestore-ktx:23.0.3'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.0'
+
+    //picasso
+    implementation "com.squareup.picasso:picasso:2.71828"
+
+    //Añadimos la dependencia de RecyclerView
+    api 'androidx.recyclerview:recyclerview:1.2.1'
 
 
 

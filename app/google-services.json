@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "923598748077",
+    "project_id": "fitarmorapp-3fdde",
+    "storage_bucket": "fitarmorapp-3fdde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923598748077:android:9a39195bec7a51d79e0924",
+        "android_client_info": {
+          "package_name": "com.example.fitarmorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923598748077-ep276ad4cgoh7od5oklkfii2c24kqc1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitarmorapp",
+            "certificate_hash": "2628cb71b75fa3c0a41e3efe42f9b8326749213a"
+          }
+        },
+        {
+          "client_id": "923598748077-m1uq8v1c4eund9qjejhg1o22ffbck0qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusPoPVbG33FTO1GU-TBGQvh-ZuraeoGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923598748077-m1uq8v1c4eund9qjejhg1o22ffbck0qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

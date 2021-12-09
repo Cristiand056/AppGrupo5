@@ -9,4 +9,5 @@
     <color name="naranja_900">#F5735B</color>
     <color name="toolbar">#BF1000</color>
     <color name="Background">#FFFFFF</color>
+    <color name="primaryTextColor">#000000</color>
 </resources>
